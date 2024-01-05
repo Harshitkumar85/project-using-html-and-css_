@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+:root {
+    --main-bg-color: brown;
+  }
+  .body{
+    display: flex;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background-color:rgb(30, 30, 158);
+    /* border:2px solid brown; */
+    /* display: inline; */
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+    height: 88px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 25px ;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: rgb(193, 193, 107); */
+    font-weight: bold;
+    font-family:  'Baloo Bhai 2', cursive;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 33vw ;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 10px 0 35px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 400;
+}
+.slider{
+    height: 23vh;
+    width: 80vw;
+    margin:12px auto;
+    /* text-align: center; */
+    /* width: 1000vh; */
+    overflow: hidden;
+}
+.card{
+    text-align: center;
+    max-width: 91vw;
+    margin:27px auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.cards{
+  display: flex;
+  /* flex-direction: column; */
+  align-items:center;
+  overflow: scroll;
+  
+} 
+ .card h2{
+    font-family: 'Baloo Bhai 2', cursive;
+
+ }
+ .card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 28px;
+}
+h2{
+    text-align: left;
+}
+.container{
+    min-height:calc(100vh - 58px - 12vh);
+}
+footer {
+    height: 12vh;
+    background-color:rgb(30, 30, 158);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
